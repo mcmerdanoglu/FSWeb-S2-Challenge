@@ -177,7 +177,7 @@ function emojileriDonustur(message, emojiler){
 /* kodlar buraya */ 
 	for (let key in emojiler) {
 	  const value = emojiler[key];
-	  message = message.replaceAll(key.toLowerCase(), value);
+	  message = message.replaceAll(key.toLowerCase(), value); //key.toLowerCase() && key.toUpperCase() gibi tek satır kod işe yarıyor ama testi geçmiyor.
 	  message = message.replaceAll(key.toUpperCase(), value);
 	}
 	return message;
