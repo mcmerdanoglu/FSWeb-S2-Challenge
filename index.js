@@ -132,8 +132,8 @@ console.log(paragrafOlustur(cumleler, cumleKur, cumlelereDonustur));
 			3a. meyveler dizisinin ilk ve son elemanlarını diziden çıkartın. (.pop ve .shift metodlarını kullanın)
  */
 //3a çözümü
-/* kodlar buraya */
-
+/* kodlar buraya */ meyveler.pop();
+					meyveler.shift();
 
 
 
