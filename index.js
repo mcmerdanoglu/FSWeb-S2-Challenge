@@ -103,10 +103,11 @@ console.log(bircumle);
 	*/
 	
 
-function cumlelereDonustur(/* kodlar buraya */ ){
-	/* kodlar buraya */
+function cumlelereDonustur(cumleler, ayrac=","){
+	/* kodlar buraya */ let sentence = cumleler.map((cumle)=> cumle.join((ayrac)));
+    return sentence;
 }
-
+console.log(cumlelereDonustur(cumleler))
 
 
 /* GÖREV 2:
