@@ -142,7 +142,8 @@ console.log(paragrafOlustur(cumleler, cumleKur, cumlelereDonustur));
 /* 			3b.  Bir tavşan ve bir kirpi arkadaşlar sebzeler dizimizin peşine düştü. Tavşan => 🐇 , Kirpi=> 🦔 , Tavşanla kirpi sebzeleri ele geçirmek için bir plan kurdular. Tavşan diziye önden saldıracak, kirpi ise arkalarından dolaşacak. Varsayalım ki arkadaşların planları başarılı oldu. Tavşanı dizinin ilk elemanına 🐇, Kirpiyi dizinin son elemanına ekleyin 🦔 
 */
 //3b çözümü
-/* kodlar buraya */
+/* kodlar buraya */ const tavsan = "🐇"; const kirpi = "🦔";
+sebzeler.unshift(tavsan); sebzeler.push(kirpi);
 
 
 
