@@ -173,12 +173,16 @@ console.log(manav);
 			4. elde edilen string döndürülecek
  */
 
-function emojileriDonustur(/* kodlar buraya */){
-/* kodlar buraya */
-
-}
-
-
+function emojileriDonustur(message, emojiler){
+/* kodlar buraya */ 
+	for (let key in emojiler) {
+	  const value = emojiler[key];
+	  message = message.replaceAll(key.toLowerCase(), value);
+	  message = message.replaceAll(key.toUpperCase(), value);
+	}
+	return message;
+  }
+  console.log(emojileriDonustur("Merhaba nasılsınız :d Beni sorarsanız çok iyiyim :D", emojiler));
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 function sa(){
