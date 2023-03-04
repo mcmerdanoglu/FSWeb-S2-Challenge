@@ -120,10 +120,12 @@ console.log(cumlelereDonustur(cumleler))
 			6. Oluşturulan paragraf döndürülecek
 	*/
 	
-function paragrafOlustur(/* kodlar buraya */ ){
-	/* kodlar buraya */ 
+function paragrafOlustur(cumleler, cumleKur, cumlelereDonustur){
+	/* kodlar buraya */ let cumleAktar = cumlelereDonustur(cumleler," ");
+	let paragraf = cumleKur(cumleAktar[1],cumleAktar[3],cumleAktar[5],cumleAktar[7],cumleAktar[9]);
+	return paragraf;
 }
-
+console.log(paragrafOlustur(cumleler, cumleKur, cumlelereDonustur));
 
 /* 	GÖREV 3:
 		Yukarıda isimleri sebzeler ve meyveler olan 2 dizi bulunmaktadır. Bu dizileri kullanarak aşağıdaki görevleri tamamlayın.
