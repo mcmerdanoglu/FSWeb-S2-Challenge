@@ -157,8 +157,8 @@ sebzeler.unshift(tavsan); sebzeler.push(kirpi);
 	//3c çözümü
 /* kodlar buraya */
 
-var manav;
-
+var manav = meyveler.concat(sebzeler);
+console.log(manav);
 
 
 
